@@ -42,4 +42,3 @@ différences.
 git branch branche1
 git checkout branche1
 vercel env add plain EnvVar1 production
-
