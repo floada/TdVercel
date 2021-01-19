@@ -42,3 +42,19 @@ différences.
 git branch branche1
 git checkout branche1
 vercel env add plain EnvVar1 production
+
+Quand on modifie le dépôt git, le nouveau dépôt git va être deployé en preview pour vérifier que tout fonctione
+
+20) Apres le merge, c'est l'environnement production qui est déployer
+
+21) Le déploiment en production correspond à la branche master de git.
+Les pull request vont passer les modifications en preview puis une fois valider (par un merge) elles ont passer en production.
+Les pull request permmetent de s'assurer que tout fonctionne
+Pendant la dev, la feature est dans l'environnement developpement. Puis elle passe en preview avec une pull request et enfin en production quand la pull request est validée.
+
+22)Serveless est l'utilisation d'un tier pour la réalisation de certaines tâches(cloud computing).
+Le client peut exécuter l'application sans se soucier de la partie serveur.
+Le client fournit le code et ensuite le fournisseur va se charger d'éxécuter le code sur un serveur.
+
+
+
