@@ -32,3 +32,13 @@ Ces variables peuvent être utilisées dans le code.
     Permet de séparer les variables utiles au fonctionnement et au développement, ainsi on peut faire des test sans arréter le fonctionnement de l'appli
 
 17) 
+
+18) https://github.com/floada/TdVercel
+
+19) La pull request permet de faire une demande pour récupérer les modifications effectuer sur 
+le serveur. La requête va comparer le dépôt local avec le dépôt sur git pour récupérer les 
+différences. 
+
+git branch branche1
+git checkout branche1
+vercel env add plain EnvVar1 production
